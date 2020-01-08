@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+
+    <properties>
+        <!-- 日志路径 -->
+        <property name="LOG_HOME">/opt/logs</property>
+    </properties>
+
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT" ignoreExceptions="false">
+            <PatternLayout
+                    pattern="%d{HH:mm:ss.SSS} [%t] %M %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </appenders>
+
+    <Loggers>
+        <logger name="org.springframework" level="INFO"/>
+        <logger name="org.apache.zookeeper" level="INFO"/>
+        <logger name="com.alibaba.dubbo" level="INFO"/>
+        <root level="all">
+            <appender-ref ref="Console"/>
+        </root>
+    </Loggers>
+</Configuration>
