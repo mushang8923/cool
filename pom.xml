@@ -16,7 +16,7 @@
         <jdk.version>1.8</jdk.version>
         <maven.assembly.plugin.version>3.1.0</maven.assembly.plugin.version>
 
-        <spring.boot.version>2.0.5.RELEASE</spring.boot.version>
+        <spring.boot.version>2.5.12</spring.boot.version>
         <spring.version>5.0.9.RELEASE</spring.version>
         <commons.lang.version>3.8</commons.lang.version>
         <dubbo.spring.boot.starter>0.2.0</dubbo.spring.boot.starter>
