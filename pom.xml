@@ -21,7 +21,7 @@
         <commons.lang.version>3.8</commons.lang.version>
         <dubbo.spring.boot.starter>0.2.0</dubbo.spring.boot.starter>
         <zookeeper.version>3.4.13</zookeeper.version>
-        <fastjson.version>1.2.33</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <poi.version>4.0.1</poi.version>
         <log4j.version>2.11.1</log4j.version>
         <druid.version>1.1.10</druid.version>
